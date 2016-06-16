@@ -132,6 +132,5 @@ public class NewsLoginActivity extends AppCompatActivity {
         SPUtil.putString(getApplicationContext(), ContextUtil.USER_PWD, pwd);
         Intent intent = new Intent(NewsLoginActivity.this, UserCenterActivity.class);
         startActivity(intent);
-
     }
 }

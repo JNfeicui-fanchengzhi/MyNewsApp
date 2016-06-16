@@ -55,9 +55,19 @@ public class NewBean {
         private String icon;
         private String stamp;
         private String title;
-        private int nid;
+        private String nid;
         private String link;
-        private int type;
+        private String  type;
+
+        public DataBean(String type, String nid, String stamp, String icon, String title, String summary, String link) {
+            this.summary = summary;
+            this.icon = icon;
+            this.stamp = stamp;
+            this.title = title;
+            this.nid = nid;
+            this.link = link;
+            this.type = type;
+        }
 
         public String getSummary() {
             return summary;
@@ -91,11 +101,11 @@ public class NewBean {
             this.title = title;
         }
 
-        public int getNid() {
+        public String getNid() {
             return nid;
         }
 
-        public void setNid(int nid) {
+        public void setNid(String nid) {
             this.nid = nid;
         }
 
@@ -107,11 +117,11 @@ public class NewBean {
             this.link = link;
         }
 
-        public int getType() {
+        public String getType() {
             return type;
         }
 
-        public void setType(int type) {
+        public void setType(String type) {
             this.type = type;
         }
     }

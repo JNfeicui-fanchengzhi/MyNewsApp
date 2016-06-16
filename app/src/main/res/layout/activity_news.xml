@@ -11,10 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="60dp">
     </include>
-    <ListView
+    <com.fanfan.mynewsapp.utils.RefreshListView
         android:layout_below="@+id/il"
         android:id="@+id/lv_list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-    </ListView>
+    </com.fanfan.mynewsapp.utils.RefreshListView>
 </RelativeLayout>

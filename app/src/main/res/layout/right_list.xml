@@ -47,10 +47,21 @@
             android:src="@mipmap/fun_share_weibo"
             android:layout_width="50dp"
             android:layout_height="50dp"/>
+
     </LinearLayout>
+
+    <Button
+        android:id="@+id/tv_share"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:text="一键分享"
+        android:layout_width="150dp"
+        android:layout_height="60dp"/>
+
     <TextView
         android:textColor="#ffffff"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="10dp"
         android:textSize="30dp"
         android:text="版本更新.."
         android:layout_width="wrap_content"
@@ -58,18 +69,4 @@
         android:layout_gravity="right"/>
 
 
-    <ImageView
-        android:id="@+id/user_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-    <TextView
-        android:id="@+id/user_nickName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18sp"/>
-    <TextView
-        android:id="@+id/user_openId"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
 </LinearLayout>

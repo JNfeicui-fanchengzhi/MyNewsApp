@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     private class MypagerAdapter extends PagerAdapter {
         private ArrayList<View> mList;
 
-        public MypagerAdapter(ArrayList<View> list) {
+        public MypagerAdapter(ArrayList<View> list)  {
             mList = list;
         }
 
