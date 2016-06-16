@@ -11,11 +11,12 @@
        android:layout_width="match_parent"
        android:layout_height="50dp">
        <ImageButton
+           android:background="#900"
            android:id="@+id/ibtn_shoucang"
            android:layout_marginRight="25dp"
            android:src="@drawable/news_menu"
            android:layout_alignParentRight="true"
-           android:layout_width="8dp"
+           android:layout_width="45dp"
            android:layout_height="45dp"/>
        <TextView
            android:textSize="40dp"

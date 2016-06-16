@@ -92,6 +92,7 @@ public class NewsActivity extends AppCompatActivity implements OnRefreshListener
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(NewsActivity.this, WebActivity.class);
+                intent.putExtra("number","1");
                 intent.putExtra("link", mAdapter.getItem(position).getLink());
                 intent.putExtra("stamp",mAdapter.getItem(position).getStamp());
                 intent.putExtra("icon",mAdapter.getItem(position).getIcon());
